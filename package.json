@@ -1,10 +1,10 @@
 {
   "name": "@crazy-factory/ts-module-boilerplate",
   "description": "",
-  "main": "./lib/index.js",
-  "typings": "./lib/index",
-  "module": "./lib.es2015/index.js",
-  "jsnext:main": "./lib.es2015/index.js",
+  "main": "./lib/Api.js",
+  "typings": "./lib/Api.d.ts",
+  "module": "./lib.es2015/Api.js",
+  "jsnext:main": "./lib.es2015/Api.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -13,7 +13,10 @@
     "url": "https://github.com/crazyfactory/ts-module-boilerplate.git"
   },
   "homepage": "https://github.com/crazyfactory/ts-module-boilerplate",
-  "dependencies": {},
+  "dependencies": {
+    "@crazyfactory/tinka": "^1.8.2",
+    "autobind-decorator": "^2.4.0"
+  },
   "devDependencies": {
     "@types/jest": "^24.0.0",
     "@types/node": "^11.9.0",
